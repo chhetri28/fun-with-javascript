@@ -77,7 +77,7 @@ if (isProduction) {
 }
 
 module.exports = {
-  mode: process.env.NODE_ENV,
+  mode: 'development',
   entry: entries,
   devtool: 'inline-source-map',
   plugins,
